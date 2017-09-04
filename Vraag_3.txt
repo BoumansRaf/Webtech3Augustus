@@ -1,0 +1,5 @@
+Vraag 3:
+
+Een Webservice is een systeem ontworpen om communicatie tussen 2 computers toe te laten over een netwerk.
+Service Oriented Architecture (SOA) gebruikt dit idee om een syteem te ontwerpen dat bestaat uit componenten die services aanbieden aan andere componenten van het systeem.
+Hierin is een Service een simpele functionaliteit om uit te voeren door het systeem (bv. een klantnummer ophalen).
