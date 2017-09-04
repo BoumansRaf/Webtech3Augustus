@@ -23,8 +23,8 @@ public class StoreApplication extends Application {
 
         Component component = new Component();
 
-        // Add a new HTTP server listening on port 8182.
-        component.getServers().add(Protocol.HTTP, 8182);
+        // Add a new HTTP server listening on port 8080.
+        component.getServers().add(Protocol.HTTP, 8080);
 
         // Attach the sample application.
         component.getDefaultHost().attach("/store", new StoreApplication());

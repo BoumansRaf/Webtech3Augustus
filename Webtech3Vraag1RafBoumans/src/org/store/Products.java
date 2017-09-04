@@ -15,6 +15,8 @@ private String catalogue;
 public Products( String catalogue) {
 	this.arr = new ArrayList<Product>();
 	this.catalogue = catalogue;
+	Product p = new Product("Raf", "Borgerhout", "25/11/2017", "Gameboy", "1");
+	arr.add(p);
 }
 public ArrayList<Product> getArr() {
 	return arr;

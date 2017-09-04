@@ -12,7 +12,7 @@ public class StoreResource extends ServerResource {
 	static String filename = "C:\\Users\\Raf\\Documents\\Webtech\\Java\\Webtech3Vraag1RafBoumans\\catalogue.txt";
    public static Products p = new Products(filename);
 
-    @Get("xml")
+    @Get("txt")
     public String doGet() {
     
         return Products.buildXML(p.getArr());

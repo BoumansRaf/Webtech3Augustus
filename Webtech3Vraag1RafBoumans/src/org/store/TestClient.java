@@ -19,7 +19,7 @@ public class TestClient{
         Products ps = new Products(filename);
         try {
 
-            URL url = new URL("http://localhost:8182/store/products");
+            URL url = new URL("http://localhost:8080/store/products");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setDoOutput(true);
             conn.setRequestMethod("POST");
